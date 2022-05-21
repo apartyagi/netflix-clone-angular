@@ -1,0 +1,12 @@
+ <div class="Startbc">
+    <app-header></app-header>
+    <app-banner [herofirst]="List_of_Api_Data.fetchNetflixOrignals"></app-banner>
+    <app-row [hero]="List_of_Api_Data.fetchNetflixOrignals" [title]="List_name[0]"></app-row>
+    <app-row [hero]="List_of_Api_Data.fetchTrending" [title]="List_name[1]" ></app-row>
+    <app-row [hero]="List_of_Api_Data.fetchActionMovie" [title]="List_name[2]" ></app-row>
+    <app-row [hero]="List_of_Api_Data.fetchComedyMovie" [title]="List_name[3]" ></app-row>
+    <app-row [hero]="List_of_Api_Data.fetchDocumentaries" [title]="List_name[4]" ></app-row>
+    <app-row [hero]="List_of_Api_Data.fetchHorrorMovie" [title]="List_name[5]" ></app-row>
+    <app-row [hero]="List_of_Api_Data.fetchTopRated" [title]="List_name[6]" ></app-row>
+    <app-row [hero]="List_of_Api_Data.fetchRomaceMovie" [title]="List_name[7]" ></app-row>    
+</div>

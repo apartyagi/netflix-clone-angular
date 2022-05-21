@@ -1,0 +1,32 @@
+.dadaji{
+    width: 100%;
+    height: 55px;
+}
+.netlix{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.login{
+    border-radius: 100px;
+    color: black;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: 1s;
+    background-color: aliceblue;
+}
+.login:hover{
+    color:white;
+    background-color: black;
+    border: 1px dotted wheat;
+}
+.opo{
+    display: flex;
+    justify-content:space-between;
+}
+.dadaji{
+    position: fixed;
+    top: 0;
+}

@@ -1,0 +1,19 @@
+<div class="Main _Row_contain_all_Card">
+  <div class="Main_Title_of_Card">
+    <h1>{{title}}</h1>
+  </div>
+
+  <div class="apar">
+    <div *ngFor="let da of array" class="Card_With_Image_and_caption">
+      <div class="Btns" *ngFor="let na of da.results">
+       <figure>
+         <div class="Single_Image_card">
+           <img src={{baseurl}}{{na.backdrop_path}} alt="Trulli">
+         </div>
+           <figcaption>{{na.name}}{{na.original_title}}</figcaption>
+         </figure>
+      </div>
+</div>
+  </div>
+   
+</div>
